@@ -217,7 +217,7 @@ export default function Section1() {
                 
                 <div className="mt-4 p-4 bg-yellow-50 rounded border-l-4 border-yellow-400">
                   <p className="font-medium text-yellow-800 mb-2">Diagnostic :</p>
-                  <p className="text-sm text-yellow-700">L'entreprise DELTA présente un déséquilibre financier avec un FR négatif. Les immobilisations ne sont pas entièrement financées par les ressources stables, créant une tension de trésorerie.</p>
+                  <p className="text-sm text-yellow-700">L&apos;entreprise DELTA présente un déséquilibre financier avec un FR négatif. Les immobilisations ne sont pas entièrement financées par les ressources stables, créant une tension de trésorerie.</p>
                 </div>
               </div>
             </div>
@@ -252,10 +252,10 @@ export default function Section1() {
                       <td className="border border-gray-300 p-3">Couverture des investissements</td>
                     </tr>
                     <tr>
-                      <td className="border border-gray-300 p-3">Capacité d'endettement</td>
+                      <td className="border border-gray-300 p-3">Capacité d&apos;endettement</td>
                       <td className="border border-gray-300 p-3">Dettes / CP</td>
                       <td className="border border-gray-300 p-3">&lt; 100%</td>
-                      <td className="border border-gray-300 p-3">Marge d'endettement disponible</td>
+                      <td className="border border-gray-300 p-3">Marge d&apos;endettement disponible</td>
                     </tr>
                     <tr>
                        <td rowSpan={3} className="border border-gray-300 p-3 font-medium bg-green-50">Liquidité</td>
@@ -281,7 +281,7 @@ export default function Section1() {
                       <td className="border border-gray-300 p-3">Rotation des stocks</td>
                       <td className="border border-gray-300 p-3">CA / Stock moyen</td>
                       <td className="border border-gray-300 p-3">Variable</td>
-                      <td className="border border-gray-300 p-3">Vitesse d'écoulement des stocks</td>
+                      <td className="border border-gray-300 p-3">Vitesse d&apos;écoulement des stocks</td>
                     </tr>
                     <tr className="bg-gray-50">
                       <td className="border border-gray-300 p-3">Délai de recouvrement</td>
@@ -304,7 +304,7 @@ export default function Section1() {
                   
                   <div className="grid md:grid-cols-2 gap-6">
                     <div>
-                      <h4 className="font-medium text-gray-700 mb-3">Données Entreprise GAMMA (en k€)</h4>
+                      <h4 className="font-medium text-gray-800 mb-3">Données Entreprise GAMMA (en k€)</h4>
                       <div className="bg-white rounded p-4 text-sm">
                         <p>• Immobilisations corporelles : 1 500</p>
                         <p>• Immobilisations financières : 200</p>
@@ -313,20 +313,8 @@ export default function Section1() {
                         <p>• Disponibilités : 100</p>
                         <p>• Capital social : 800</p>
                         <p>• Réserves : 300</p>
-                        <p>• Résultat de l'exercice : 100</p>
-                        <p>• Emprunts bancaires : 600</p>
-                        <p>• Dettes fournisseurs : 500</p>
-                        <p>• Dettes fiscales et sociales : 200</p>
-                      </div>
-                    </div>
-                    
-                    <div>
-                      <h4 className="font-medium text-gray-700 mb-3">Questions</h4>
-                      <div className="space-y-2 text-sm">
-                        <p>1. Calculez le Fonds de Roulement</p>
-                        <p>2. Calculez le Besoin en Fonds de Roulement</p>
-                        <p>3. Déduisez la Trésorerie Nette</p>
-                        <p>4. Calculez le ratio d'autonomie financière</p>
+                        <p>• Résultat de l&apos;exercice : 100</p>
+                        <p>4. Calculez le ratio d&apos;autonomie financière</p>
                         <p>5. Calculez le ratio de liquidité générale</p>
                         <p>6. Commentez la situation financière</p>
                       </div>

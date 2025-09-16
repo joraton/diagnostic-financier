@@ -8,7 +8,6 @@ interface SectionBlockProps {
   icon: LucideIcon;
   color: string;
   bgColor: string;
-  index: number;
   btnBg: string;
   btnHoverBg: string;
 }
@@ -20,7 +19,6 @@ export default function SectionBlock({
   icon: Icon, 
   color, 
   bgColor, 
-  index,
   btnBg,
   btnHoverBg
 }: SectionBlockProps) {

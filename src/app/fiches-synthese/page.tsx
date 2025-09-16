@@ -266,7 +266,7 @@ Fiche générée automatiquement - Diagnostic Financier DSCG
                 <h3 className="font-semibold text-green-800 mb-1">Fiches téléchargeables</h3>
                 <p className="text-green-700 text-sm">
                   Chaque fiche contient les concepts essentiels, formules clés et ratios indispensables.
-                  Parfait pour réviser avant l'examen DSCG !
+                  Parfait pour réviser avant l&apos;examen DSCG !
                 </p>
               </div>
             </div>

@@ -159,7 +159,7 @@ export default function MethodologieDSCG() {
             </div>
             <div>
               <h1 className="text-3xl font-bold text-gray-900">Méthodologie DSCG</h1>
-              <p className="text-gray-600 mt-1">Grilles d'analyse et conseils pour l'examen</p>
+              <p className="text-gray-600 mt-1">Grilles d&apos;analyse et conseils pour l&apos;examen</p>
             </div>
           </div>
           
@@ -169,8 +169,8 @@ export default function MethodologieDSCG() {
               <div>
                 <h3 className="font-semibold text-amber-800 mb-1">Objectif DSCG</h3>
                 <p className="text-amber-700 text-sm">
-                  Maîtriser les techniques de diagnostic financier et savoir les appliquer dans un contexte d'examen.
-                  Cette section vous donne les clés méthodologiques pour réussir l'épreuve.
+                  Maîtriser les techniques de diagnostic financier et savoir les appliquer dans un contexte d&apos;examen.
+                  Cette section vous donne les clés méthodologiques pour réussir l&apos;épreuve.
                 </p>
               </div>
             </div>
@@ -188,7 +188,7 @@ export default function MethodologieDSCG() {
               ].map(({ id, label, icon: Icon }) => (
                 <button
                   key={id}
-                  onClick={() => setActiveTab(id as any)}
+                  onClick={() => setActiveTab(id as 'grilles' | 'conseils' | 'erreurs')}
                   className={`flex items-center gap-2 py-4 px-2 border-b-2 font-medium text-sm transition-colors ${
                     activeTab === id
                       ? 'border-blue-500 text-blue-600'
@@ -203,11 +203,11 @@ export default function MethodologieDSCG() {
           </div>
 
           <div className="p-6">
-            {/* Grilles d'analyse */}
+            {/* Grilles d&apos;analyse */}
             {activeTab === 'grilles' && (
               <div className="space-y-6">
                 <div className="mb-6">
-                  <h2 className="text-xl font-bold text-gray-900 mb-2">Grilles d'analyse méthodiques</h2>
+                  <h2 className="text-xl font-bold text-gray-900 mb-2">Grilles d&apos;analyse méthodiques</h2>
                   <p className="text-gray-600">Suivez ces grilles étape par étape pour structurer votre analyse financière.</p>
                 </div>
                 
@@ -288,7 +288,7 @@ export default function MethodologieDSCG() {
             {activeTab === 'conseils' && (
               <div className="space-y-6">
                 <div className="mb-6">
-                  <h2 className="text-xl font-bold text-gray-900 mb-2">Conseils pour réussir l'examen</h2>
+                  <h2 className="text-xl font-bold text-gray-900 mb-2">Conseils pour réussir l&apos;examen</h2>
                   <p className="text-gray-600">Stratégies éprouvées pour optimiser votre performance le jour J.</p>
                 </div>
                 

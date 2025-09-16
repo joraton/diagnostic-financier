@@ -80,7 +80,7 @@ export default function CoursePlan() {
       
       {/* Blocs de sections */}
       <div className="space-y-4">
-        {sections.map((section, index) => (
+        {sections.map((section) => (
           <SectionBlock
             key={section.href}
             title={section.title}
@@ -89,7 +89,6 @@ export default function CoursePlan() {
             icon={section.icon}
             color={section.color}
             bgColor={section.bgColor}
-            index={index}
             btnBg={section.btnBg}
             btnHoverBg={section.btnHoverBg}
           />
